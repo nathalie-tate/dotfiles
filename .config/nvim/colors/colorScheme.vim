@@ -1,0 +1,50 @@
+set background=dark
+let g:colors_name = "colorScheme"
+hi Normal guifg=#ffffff guibg=NONE guisp=#252525 gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi Search ctermfg=16 ctermbg=201
+hi SpecialComment guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi Typedef guifg=#dadada guibg=NONE guisp=NONE gui=NONE ctermfg=253 ctermbg=NONE cterm=NONE
+hi PreCondit guifg=#00dada guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=NONE cterm=NONE
+hi Include guifg=#00dada guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=NONE cterm=NONE
+hi Float guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=14 ctermbg=NONE cterm=NONE
+hi StatusLineNC guifg=#00ffff guibg=#002525 guisp=#002525 gui=NONE ctermfg=14 ctermbg=23 cterm=NONE
+hi NonText guifg=NONE guibg=NONE guisp=#181818 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi Ignore guifg=#252525 guibg=NONE guisp=NONE gui=NONE ctermfg=235 ctermbg=NONE cterm=NONE
+hi Debug guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi PMenuSbar guifg=NONE guibg=#002525 guisp=#002525 gui=NONE ctermfg=NONE ctermbg=23 cterm=NONE
+hi Identifier guifg=#ff00ff guibg=NONE guisp=NONE gui=bold ctermfg=201 ctermbg=NONE cterm=bold
+hi SpecialChar guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi Conditional guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi StorageClass guifg=#dadada guibg=NONE guisp=NONE gui=NONE ctermfg=253 ctermbg=NONE cterm=NONE
+hi Todo guifg=#ff0000 guibg=#dadada guisp=#dadada gui=NONE ctermfg=196 ctermbg=253cterm=NONE
+hi Special guifg=#ff0000 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE
+hi LineNr guifg=#00ffff guibg=NONE guisp=#181818 gui=NONE ctermfg=14 ctermbg=NONE cterm=NONE
+hi StatusLine guifg=#00ffff guibg=#002525 guisp=#002525 gui=NONE ctermfg=16 ctermbg=201 cterm=NONE
+hi Label guifg=#ff00ff guibg=NONE guisp=NONE gui=bold ctermfg=201 ctermbg=NONE cterm=bold
+hi PMenuSel guifg=#00ffff guibg=#252525 guisp=#252525 gui=NONE ctermfg=14 ctermbg=235 cterm=NONE
+hi Delimiter guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi Statement guifg=#ff00ff guibg=NONE guisp=NONE gui=bold ctermfg=201 ctermbg=NONE cterm=bold
+hi ColorColumn guifg=NONE guibg=#ff00ff guisp=#ff00ff gui=NONE ctermfg=NONE ctermbg=053  cterm=NONE
+hi Character guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=14 ctermbg=NONE cterm=NONE
+hi TabLineSel guifg=#00ffff guibg=#252525 guisp=#252525 gui=bold ctermfg=14 ctermbg=235 cterm=bold
+hi Number guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=14 ctermbg=NONE cterm=NONE
+hi Boolean guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=14 ctermbg=NONE cterm=NONE
+hi Operator guifg=#ff0000 guibg=NONE guisp=NONE gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
+hi TabLineFill guifg=#000 guibg=#181818 guisp=#181818 gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
+hi ModeMsg guifg=#dadada guibg=#006464 guisp=#006464 gui=NONE ctermfg=15 ctermbg=201 cterm=NONE
+hi Define guifg=#00dada guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=NONE cterm=NONE
+hi Function guifg=#ff00ff guibg=NONE guisp=NONE gui=bold ctermfg=201 ctermbg=NONE cterm=bold
+hi PreProc guifg=#00dada guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=NONE cterm=NONE
+hi Exception guifg=#ff00ff guibg=NONE guisp=NONE gui=bold ctermfg=201 ctermbg=NONE cterm=bold
+hi Keyword guifg=#ff00ff guibg=NONE guisp=NONE gui=bold ctermfg=201 ctermbg=NONE cterm=bold
+hi Type guifg=#dadada guibg=NONE guisp=NONE gui=NONE ctermfg=253 ctermbg=NONE cterm=NONE
+hi Error guifg=#ffffff guibg=#ff0000 guisp=#ff0000 gui=NONE ctermfg=15 ctermbg=196 cterm=NONE
+hi PMenu guifg=#ff00ff guibg=NONE guisp=#181818 gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi Constant guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=14 ctermbg=NONE cterm=NONE
+hi Tag guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi String guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=14 ctermbg=NONE cterm=NONE
+hi PMenuThumb guifg=NONE guibg=#00ffff guisp=#00ffff gui=NONE ctermfg=NONE ctermbg=14 cterm=NONE
+hi Repeat guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
+hi Structure guifg=#dadada guibg=NONE guisp=NONE gui=NONE ctermfg=253 ctermbg=NONE cterm=NONE
+hi Macro guifg=#00dada guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=NONE cterm=NONE
+hi TabLine guifg=#ff00ff guibg=NONE guisp=NONE gui=NONE ctermfg=201 ctermbg=NONE cterm=NONE
