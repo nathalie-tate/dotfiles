@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 #
 # Example panel for lemonbar
 
@@ -9,7 +9,10 @@ num_mon=$(bspc query -M | wc -l)
 while read -r line ; do
 	case $line in
 		B*)	#conky(battery)
-			bat="${line#?}"
+			bat="%{F$COLOR_HI_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
+			if [[ "${line#?}" < "25\%" ]] ; then
+				bat="%{F$COLOR_LOW_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
+			fi
 			;;
 		C*)	#conky(cpu)
 			cpu="${line#?}"
