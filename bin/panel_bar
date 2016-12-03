@@ -10,7 +10,9 @@ while read -r line ; do
 	case $line in
 		B*)	#conky(battery)
 			bat="%{F$COLOR_HI_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
-			if [[ "${line#?}" < "25\%" ]] ; then
+			if [[ "${line#?}" <  "100\%" ]] ; then
+				bat="%{F$COLOR_HI_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
+			elif [[ "${line#?}" < "25\%" ]] ; then
 				bat="%{F$COLOR_LOW_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
 			fi
 			;;
