@@ -14,6 +14,7 @@ while read -r line ; do
 				bat="%{F$COLOR_LOW_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
 				if [[ "${line#?}" <  "100\%" ]] ; then
 					bat="%{F$COLOR_HI_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
+				fi
 			fi
 			;;
 		C*)	#conky(cpu)
