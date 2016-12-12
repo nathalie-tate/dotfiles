@@ -9,10 +9,7 @@ num_mon=$(bspc query -M | wc -l)
 while read -r line ; do
 	case $line in
 		B*)	#conky(battery)
-			bat="%{F$COLOR_HI_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
-			if [ ${line#?} -lt 25 ] ; then
-				bat="%{F$COLOR_LOW_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
-			fi
+			bat="%{F$COLOR_BAT}%{B$COLOR_SYS_BG} ${line#?} %{B-}%{F-}"
 			;;
 		C*)	#conky(cpu)
 			cpu="${line#?}"
