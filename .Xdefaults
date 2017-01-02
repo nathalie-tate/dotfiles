@@ -25,6 +25,9 @@ URxvt*.scrollStyle:          rxvt
 URxvt*.scrollBar:            false
 
 ! Perl extensions
+
+!note that this doesnt fucking work
+!at least for me
 URxvt**.perl-ext-common:      default,matcher
 URxvt**.urlLauncher:          /bin/palemoon
 URxvt**.matcher.button:       1
