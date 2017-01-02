@@ -7,7 +7,7 @@ function fish_prompt --description 'Write out the prompt'
 					set suffix '#'
         case '*'
             set color_cwd 8700d7
-            set suffix '>'
+            set suffix '»'
     end
 
     echo -n -s (set_color d700ff)"$USER" @ (prompt_hostname) ' ' (set_color $color_cwd) (prompt_pwd) (set_color d700ff) "$suffix "
