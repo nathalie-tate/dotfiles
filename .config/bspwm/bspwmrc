@@ -18,3 +18,4 @@ bspc config leaf_monocle	 true
 
 bspc rule -a KeePass2 desktop='^6'
 bspc rule -a Fossamail desktop='^5'
+bspc rule -a hangman-Hangman state=floating
