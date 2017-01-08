@@ -1,4 +1,4 @@
 function fish_title
 	echo $_ ' '
-	pwd
+	echo $PWD
 end
