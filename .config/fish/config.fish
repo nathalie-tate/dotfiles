@@ -1,7 +1,7 @@
 set fish_greeting "Hi mom <3<3<3"
 set -x PANEL_FIFO /tmp/panel-fifo
 set -x EDITOR nvim
-set -x EMAIL nathalie.tate00@gmail.com
+set -x EMAIL nrt@nathalietate.xyz
 set -x _JAVA_AWT_WM_NONREPARENTING 1
 
 if status --is-login

@@ -1,3 +1,3 @@
 function netbeans
-	nohup netbens > /dev/null &
+	nohup netbeans > /dev/null &
 end
