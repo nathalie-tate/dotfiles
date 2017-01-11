@@ -1,4 +1,5 @@
 #Dependencies
+- fish-shell
 - conky
 - bspwm/bspc
 - shkxd
