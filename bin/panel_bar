@@ -105,5 +105,5 @@ while read -r line ; do
 	esac
 	layout=$(xkb-switch)
 	layout="${layout// /}"
-	printf "%s\n" "%{l}${wm}${ram} ${cpu}  Keyboard Layout: ${layout}%{c}${wifi}${title}%{r}${vol}${sys}${bat}"
+	printf "%s\n" "%{l}${wm}${ram} ${cpu} ${layout}%{c}${wifi} ${title} %{r}${vol}${sys}${bat}"
 done

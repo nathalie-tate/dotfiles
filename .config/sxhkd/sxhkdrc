@@ -11,6 +11,10 @@ XF86Audio{Raise,Lower}Volume
 super + Return
 	urxvt
 
+#palemoon
+super + p
+	palemoon
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -21,7 +25,8 @@ super + Escape
 
 # quit bspwm normally
 super + alt + Escape
-	pkill -x panel; bspc quit
+	bspc quit
+#pkill -x panel; bspc quit
 
 # close and kill
 super + {_,shift + }w
