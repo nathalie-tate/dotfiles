@@ -1,3 +1,3 @@
 function angband
-	command angband -mx11 -- -n3 & exit
+	command angband -mx11 -- -n3
 end
