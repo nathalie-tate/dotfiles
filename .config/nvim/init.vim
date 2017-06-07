@@ -2,19 +2,16 @@ execute pathogen#infect()
 syntax enable
 
 colorscheme colorScheme
-set cindent shiftwidth=2
-set tabstop=2
-set softtabstop=0  
-set noexpandtab
-set shiftwidth=2
+set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
 filetype on
 
 "spellcheck
 autocmd FileType tex setlocal spell
+autocmd FileType text setlocal spell
 
 "line wrap
 autocmd FileType tex set textwidth=80
-autocmd FileType txt set textwidth=80
+autocmd FileType text set textwidth=80
 
 set number
 set colorcolumn=81
