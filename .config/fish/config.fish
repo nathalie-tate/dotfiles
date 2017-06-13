@@ -14,4 +14,4 @@ if status --is-login
 	end
 end
 
-rm -rf ~/Desktop
+command rm -rf ~/Desktop
