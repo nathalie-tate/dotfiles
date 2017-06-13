@@ -11,7 +11,7 @@ URxvt*.fading:               50
 URxvt*.shading:              90
 URxvt*.visualBell:           true
 URxvt*.loginShell:           true
-URxvt*.saveLines:            500
+URxvt*.saveLines:            5000
 URxvt*.internalBorder:       3
 URxvt*.lineSpace:            0
 
