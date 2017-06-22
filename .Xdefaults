@@ -8,10 +8,10 @@ URxvt*.depth:                32
 URxvt*.geometry:             90x30
 URxvt*.transparent:          true
 URxvt*.fading:               50
-URxvt*.shading:              90
+URxvt*.shading:              40
 URxvt*.visualBell:           true
 URxvt*.loginShell:           true
-URxvt*.saveLines:            5000
+URxvt*.saveLines:            10000
 URxvt*.internalBorder:       3
 URxvt*.lineSpace:            0
 
@@ -23,14 +23,6 @@ URxvt*boldFont: xft:Prestige Elite
 ! Scrollbar
 URxvt*.scrollStyle:          rxvt
 URxvt*.scrollBar:            false
-
-! Perl extensions
-
-!note that this doesnt fucking work
-!at least for me
-URxvt**.perl-ext-common:      default,matcher
-URxvt**.urlLauncher:          /bin/palemoon
-URxvt**.matcher.button:       1
 
 ! Cursor
 URxvt*.cursorBlink:          true
@@ -45,3 +37,13 @@ URxvt*.pointerBlankDelay:    5
 *foreground: #f6f
 URxvt*.fadeColor: black
 URxvt*.underlineColor: red
+
+! Perl extensions
+
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select
+URxvt.url-select.launcher:  palemoon
+URxvt.url-select.underline: true
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+

@@ -6,6 +6,7 @@
 - shkxd
 - lemonbar
 - urxvt
+- urxvt-perls
 - feh
 - neovim (pathogen, nerdtree)
 - numlockx
