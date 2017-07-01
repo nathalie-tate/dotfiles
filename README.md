@@ -12,6 +12,7 @@
 - numlockx
 - prestige elite (not free)
 - pale moon
+- xkb-switch
 - xorg-server (obviously)
 
 # Wallpaper Credit
