@@ -3,7 +3,7 @@
 - fish-shell
 - conky
 - bspwm/bspc
-- shkxd
+- sxhkd
 - lemonbar
 - urxvt
 - urxvt-perls
