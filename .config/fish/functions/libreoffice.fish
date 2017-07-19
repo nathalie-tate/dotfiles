@@ -1,3 +1,3 @@
 function libreoffice
-	nohup libreoffice > /dev/null &
+	nohup libreoffice $argv > /dev/null &
 end
