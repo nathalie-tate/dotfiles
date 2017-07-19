@@ -17,7 +17,12 @@ URxvt*.lineSpace:            0
 
 ! Fonts
 URxvt*.allow_bold:           true
-URxvt*font: xft:Prestige Elite, xft:Courier
+URxvt*font:\
+            xft:Prestige Elite,\
+            xft:Courier,\
+            xft:Symbola,\
+            xft:Mathematica\
+
 URxvt*boldFont: xft:Prestige Elite
 
 ! Scrollbar
