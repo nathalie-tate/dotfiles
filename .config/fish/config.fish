@@ -15,3 +15,4 @@ if status --is-login
 end
 
 command rm -rf ~/Desktop
+command rm -rf ~/Wallpapers
