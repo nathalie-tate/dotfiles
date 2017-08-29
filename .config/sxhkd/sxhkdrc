@@ -15,6 +15,11 @@ super + Return
 super + p
 	palemoon
 
+#qutebrowser
+super + q
+    qute
+
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
