@@ -1,3 +1,3 @@
 function steam
-	nohup optirun steam > /dev/null &
+	nohup steam > /dev/null &
 end
