@@ -1,3 +1,3 @@
 function keepass
-	nohup keepass > /dev/null &
+	nohup keepass2 > /dev/null &
 end
