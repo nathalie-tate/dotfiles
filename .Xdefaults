@@ -6,9 +6,7 @@ Xft.hintstyle:              hintslight
 
 URxvt*.depth:                32
 URxvt*.geometry:             90x30
-URxvt*.transparent:          true
 URxvt*.fading:               50
-URxvt*.shading:              40
 URxvt*.visualBell:           true
 URxvt*.loginShell:           true
 URxvt*.saveLines:            10000
@@ -42,6 +40,10 @@ URxvt*.pointerBlankDelay:    5
 *foreground: #f6f
 URxvt*.fadeColor: black
 URxvt*.underlineColor: red
+
+! Real Transparency
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
 
 ! Perl extensions
 
