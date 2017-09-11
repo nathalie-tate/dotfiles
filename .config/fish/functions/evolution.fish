@@ -1,3 +1,3 @@
-function thunderbird
+function evolution
 	nohup evolution > /dev/null &
 end
