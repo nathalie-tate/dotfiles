@@ -5,9 +5,7 @@ set -x BROWSER qutebrowser
 set -x EMAIL nrt@nathalietate.xyz
 set -x _JAVA_AWT_WM_NONREPARENTING 1
 
-if status --is-login
-	set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathalie/bin/bin
-end
+set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathalie/bin/bin
 
 command rm -rf ~/Desktop
 command rm -rf ~/Wallpapers
