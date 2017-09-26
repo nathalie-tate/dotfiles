@@ -16,7 +16,7 @@ hi Identifier ctermfg=13 ctermbg=NONE cterm=bold
 hi SpecialChar ctermfg=11  ctermbg=NONE cterm=NONE
 hi Conditional ctermfg=14 ctermbg=NONE cterm=NONE
 hi StorageClass ctermfg=253 ctermbg=NONE cterm=NONE
-hi Todo ctermfg=0 ctermbg=2
+hi Todo ctermfg=7 ctermbg=1
 hi Special ctermfg=3 ctermbg=NONE cterm=NONE
 hi LineNr ctermfg=5 ctermbg=NONE cterm=NONE
 hi StatusLine ctermfg=16 ctermbg=201 cterm=NONE
