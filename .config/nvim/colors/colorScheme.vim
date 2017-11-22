@@ -1,5 +1,7 @@
 set background=dark
 let g:colors_name = 'colorScheme'
+"hi CursorLine ctermfg=NONE ctermbg=0 cterm=NONE
+"hi CursorColumn ctermfg=NONE ctermbg=0 cterm=NONE
 hi Normal ctermfg=15 ctermbg=NONE cterm=NONE
 hi Search ctermfg=16 ctermbg=201
 hi SpecialComment ctermfg=3 ctermbg=NONE cterm=NONE
@@ -48,5 +50,3 @@ hi Repeat ctermfg=5 ctermbg=NONE cterm=NONE
 hi Structure ctermfg=253 ctermbg=NONE cterm=NONE
 hi Macro ctermfg=3 ctermbg=NONE cterm=NONE
 hi TabLine ctermfg=201 ctermbg=NONE cterm=NONE
-hi CursorLine ctermfg=NONE ctermbg=0 cterm=NONE
-hi CursorColumn ctermfg=NONE ctermbg=0 cterm=NONE

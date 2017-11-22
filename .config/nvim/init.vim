@@ -15,8 +15,9 @@ autocmd FileType text set textwidth=80
 
 set number
 set colorcolumn=81
-set cursorcolumn
-set cursorline
+
+"set cursorcolumn
+"set cursorline
 
 nmap Q :syn sync fromstart<CR>
 
