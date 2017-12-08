@@ -1,3 +1,4 @@
+source /home/nathalie/.config/nvim/autoload/pathogen.vim
 execute pathogen#infect()
 syntax enable
 
