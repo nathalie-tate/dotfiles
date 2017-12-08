@@ -5,8 +5,11 @@ Xft.hinting:                true
 Xft.hintstyle:              hintslight
 
 URxvt*.depth:                32
+urxvt*background: rgba:0000/0000/0200/c800
 URxvt*.geometry:             90x30
+!URxvt*.transparent:          true
 URxvt*.fading:               50
+!URxvt*.shading:              40
 URxvt*.visualBell:           true
 URxvt*.loginShell:           true
 URxvt*.saveLines:            10000
@@ -53,4 +56,3 @@ URxvt.url-select.underline: true
 URxvt.keysym.M-u:           perl:url-select:select_next
 URxvt.keysym.M-Escape:      perl:keyboard-select:activate
 URxvt.keysym.M-s:           perl:keyboard-select:search
-
