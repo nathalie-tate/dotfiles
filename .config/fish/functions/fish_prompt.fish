@@ -1,4 +1,5 @@
 function fish_prompt --description 'Write out the prompt'
+    set -l stat $status
 	if not set -q __fish_git_prompt_show_informative_status
         set -g __fish_git_prompt_show_informative_status 1
     end
@@ -70,10 +71,10 @@ function fish_prompt --description 'Write out the prompt'
             else
                 set color_cwd $fish_color_cwd
             end
-            set suffix '☭'
+            set suffix '☭  '
         case '*'
             set color_cwd $fish_color_cwd
-            set suffix '⚢ ⚧'
+            set suffix '⚢ ⚧ ~'
     end
 
     set Host (prompt_hostname)
@@ -90,8 +91,8 @@ function fish_prompt --description 'Write out the prompt'
 
     printf '%s ' (__fish_vcs_prompt)
 
-    if not test $last_status -eq 0
-        set_color $fish_color_error
+    if not test $stat -eq 0
+        set_color c30b0b
     end
 
     echo -n "$suffix "
