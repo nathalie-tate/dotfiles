@@ -1,3 +1,3 @@
 function emptytrash
-command	rm -rf ~/trash/*
+command	rm -rf ~/.trash/*
 end

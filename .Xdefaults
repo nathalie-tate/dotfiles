@@ -40,9 +40,13 @@ URxvt*.pointerBlank:         true
 URxvt*.pointerBlankDelay:    5     
 
 *background: #000
-*foreground: #f6f
-URxvt*.fadeColor: black
+*foreground: #FF73FF
+URxvt*.fadeColor: gray
 URxvt*.underlineColor: red
+
+! Real Transparency
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
 
 ! Perl extensions
 
