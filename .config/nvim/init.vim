@@ -6,13 +6,18 @@ colorscheme colorScheme
 set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
 filetype on
 
+"set mps+=<:>
+filetype plugin on
+
 "spellcheck
 autocmd FileType tex setlocal spell
 autocmd FileType text setlocal spell
+autocmd FileType markdown setlocal spell
 
 "line wrap
 autocmd FileType tex set textwidth=80
 autocmd FileType text set textwidth=80
+autocmd FileType markdown set textwidth=80
 
 set number
 set colorcolumn=81
