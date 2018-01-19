@@ -1,5 +1,4 @@
 set fish_greeting "Hi mom <3<3<3"
-set -x PANEL_FIFO /tmp/panel-fifo
 set -x EDITOR nvim
 set -x PAGER "less -i"
 set -x LESSCHARSET "utf-8"
