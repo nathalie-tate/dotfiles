@@ -9,6 +9,9 @@ filetype on
 "set mps+=<:>
 filetype plugin on
 
+"git gutter
+set updatetime=250
+
 "spellcheck
 autocmd FileType tex setlocal spell
 autocmd FileType text setlocal spell
