@@ -6,3 +6,5 @@ set -x BROWSER qutebrowser
 set -x EMAIL nrt@nathalietate.xyz
 set -x _JAVA_AWT_WM_NONREPARENTING 1
 set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathalie/bin
+
+source ~/.dircolors
