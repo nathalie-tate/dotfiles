@@ -26,7 +26,7 @@ hi Label ctermfg=14 ctermbg=NONE cterm=bold
 hi PMenuSel ctermfg=14 ctermbg=235 cterm=NONE
 hi Delimiter ctermfg=3 ctermbg=NONE cterm=NONE
 hi Statement ctermfg=5 ctermbg=NONE cterm=bold
-hi ColorColumn ctermfg=NONE ctermbg=13 cterm=NONE
+hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE
 hi Character ctermfg=14 ctermbg=NONE cterm=NONE
 hi TabLineSel ctermfg=14 ctermbg=235 cterm=bold
 hi Number ctermfg=5 ctermbg=NONE cterm=NONE
