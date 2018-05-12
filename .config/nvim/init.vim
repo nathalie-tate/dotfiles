@@ -1,10 +1,6 @@
 call plug#begin('~/.config/nvim/bundle')
 Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
-Plug 'roxma/nvim-completion-manager'
-Plug 'sassanh/nvim-cm-eclim'
-Plug 'othree/csscomplete.vim'
-Plug 'roxma/ncm-clang' 
 
 call plug#end()
 
