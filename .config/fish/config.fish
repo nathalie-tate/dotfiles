@@ -6,8 +6,13 @@ set -x BROWSER qutebrowser
 set -x EMAIL nrt@nathalietate.xyz
 set -x _JAVA_AWT_WM_NONREPARENTING 1
 
-set -x NVIM_LISTEN_ADDRESS 127.0.0.1:6543
+set -x NVIM_LISTEN_ADDRESS 127.0.0.1:6666
 
 set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathalie/bin /home/nathalie/.local/bin
+
+
+set -x DBUSER "herculeze"
+set -x DBPASS ""
+set -x DATABASE "herculezeTest"
 
 source ~/.dircolors
