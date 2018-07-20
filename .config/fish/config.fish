@@ -8,7 +8,9 @@ set -x GOPATH /home/nathalie/.go/
 
 set -x NVIM_LISTEN_ADDRESS 127.0.0.1:6666
 
-set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathalie/bin /home/nathalie/.local/bin /home/nathalie/.cargo/bin /usr/local/go/bin /home/nathalie/.go/bin/ /usr/games/
+set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathalie/bin /home/nathalie/.local/bin /home/nathalie/.cargo/bin /home/nathalie/.go/bin/ 
+
+#/usr/local/go/bin /usr/games/
 
 
 set -x DBUSER "herculeze"
