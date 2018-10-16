@@ -1,3 +1,3 @@
 function p
-	ping -c 3 google.com
+  ping -c 3 google.com
 end

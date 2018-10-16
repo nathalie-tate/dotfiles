@@ -1,19 +1,24 @@
-# Dependencies
+Shell : fish
 
-- fish-shell
-- conky
-- bspwm/bspc
-- sxhkd
-- lemonbar
-- urxvt
-- urxvt-perls
-- feh
-- neovim (pathogen, nerdtree)
-- numlockx
-- prestige elite (not free)
-- pale moon
-- xkb-switch
-- xorg-server (obviously)
+Terminal : kitty
+
+Editor : Neovim
+
+vim Plug-in Manager : vim-plug
+
+vim Plug-ins : nerdtree, vim-gitgutter, vim-flagship, vim-fugitive, vim-rhubarb
+
+DE/WM : Budgie
+
+Pager : less
+
+Browser : Firefox
+
+Mail Client : Evolution
+
+Image Viewer : feh
+
+PDF Viewer : Evince
 
 # Wallpaper Credit
 
