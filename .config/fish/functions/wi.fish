@@ -1,3 +1,3 @@
 function wi
-	sudo wifi-menu
+  sudo wifi-menu
 end

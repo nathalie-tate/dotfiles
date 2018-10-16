@@ -1,3 +1,3 @@
 function alsi
-	command alsi --purple -l
+  command alsi --purple -l
 end
