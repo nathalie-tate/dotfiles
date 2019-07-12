@@ -5,6 +5,8 @@ set -x BROWSER firefox
 set -x EMAIL nrt@nathalietate.xyz
 set -x _JAVA_AWT_WM_NONREPARENTING 1
 set -x GOPATH /home/nathalie/.go/
+set -x TERM xterm-kitty
+set -x XDG_CONFIG_HOME ~/.config
 
 set -x NVIM_LISTEN_ADDRESS 127.0.0.1:6666
 
