@@ -35,7 +35,7 @@ autocmd FileType markdown set textwidth=80
 
 autocmd BufNewFile,BufRead *.tt set syntax=html
 
-set number
+set nu rnu
 set colorcolumn=81
 
 "set cursorcolumn
