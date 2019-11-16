@@ -3,11 +3,14 @@ Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-flagship'
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
 
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS noci
+autocmd BufNewFile,BufRead *.tt set filetype=html
 
 syntax enable
 
@@ -31,9 +34,7 @@ autocmd FileType markdown setlocal spell
 autocmd FileType tex set textwidth=80
 autocmd FileType text set textwidth=80
 autocmd FileType txt set textwidth=80
-autocmd FileType markdown set textwidth=80
-
-autocmd BufNewFile,BufRead *.tt set syntax=html
+autocmd FileType markdown set textwidth=80 
 
 set nu rnu
 set colorcolumn=81

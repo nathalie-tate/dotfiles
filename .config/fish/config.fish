@@ -13,12 +13,9 @@ set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathali
 
 #/usr/local/go/bin /usr/games/
 
-#set -x DBUSER "hrclz"
-#set -x DBPASS "Chloe"
-#set -x DATABASE "herculeze"
-
 set -x EXERCISM_EXTENDED 1
 
 source ~/.dircolors
+source ~/.config/fish/ENV.fish
 
 command rmdir ~/Desktop
