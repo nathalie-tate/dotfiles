@@ -15,7 +15,7 @@ autocmd BufNewFile,BufRead *.tt set filetype=html
 syntax enable
 
 colorscheme colorScheme
-set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 filetype on
 
 "set mps+=<:>
