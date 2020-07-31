@@ -18,4 +18,4 @@ set -x EXERCISM_EXTENDED 1
 source ~/.dircolors
 source ~/.config/fish/ENV.fish
 
-command rmdir ~/Desktop
+command rmdir ~/Desktop 2>/dev/null
