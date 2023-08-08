@@ -59,15 +59,6 @@ noremap <C-L> <C-W><C-L>
 
 nmap <C-n> :NERDTreeToggle<CR>
 
-nnoremap <up>	 <nop>
-nnoremap <down>  <nop>
-nnoremap <left>  <nop>
-nnoremap <right> <nop>
-inoremap <up>    <nop>
-inoremap <down>  <nop>
-inoremap <left>	 <nop>
-inoremap <right> <nop>
-
 "close vim if the only window open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
@@ -75,3 +66,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 set laststatus=2
 set showtabline=0
 set guioptions-=e
+
+"fold options
+"set foldmethod=manual
+set foldlevelstart=1
+let perl_fold=1

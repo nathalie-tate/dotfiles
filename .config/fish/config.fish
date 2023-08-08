@@ -1,5 +1,7 @@
+set -x TERMINAL kitty
 set -x EDITOR nvim
-set -x PAGER "less -i"
+set -x PAGER "less"
+set -x LESS "--use-color RiDPMk\$DEWm\$DSkM\$"
 set -x LESSCHARSET "utf-8"
 set -x BROWSER firefox
 set -x EMAIL nrt@nathalietate.xyz
@@ -15,7 +17,8 @@ set -x PATH /bin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin /home/nathali
 
 set -x EXERCISM_EXTENDED 1
 
+set -x PICO_SDK_PATH ~/src/pico/pico-sdk
+
 source ~/.dircolors
-source ~/.config/fish/ENV.fish
 
 command rmdir ~/Desktop 2>/dev/null

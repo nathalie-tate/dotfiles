@@ -1,0 +1,79 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        colors = true
+        color_good = "#FF00FF"
+        color_bad = "#FF0000"
+        color_degraded = "#FFFF00"
+        interval = 1
+}
+
+order += "volume master"
+#order += "ipv6"
+order += "wireless _first_"
+#order += "ethernet _first_"
+order += "battery all"
+#order += "disk /"
+#order += "load"
+order += "cpu_usage"
+order += "memory"
+order += "tztime utc"
+order += "tztime local"
+
+wireless _first_ {
+        format_up = "W:%quality at %essid"
+        format_down = "W: down"
+}
+
+ethernet _first_ {
+        format_up = "E: %ip (%speed)"
+        format_down = "E: down"
+}
+
+battery all {
+        format = "%status %percentage %remaining"
+        low_threshold = 20
+        threshold_type = percentage
+}
+
+disk "/" {
+        format = "%avail"
+}
+
+load {
+        format = "%1min"
+}
+
+memory {
+        #format = "%used/%available"
+        format = "%used/%available/%total"
+        threshold_degraded = "1Gi"
+        format_degraded = "MEMORY < %available"
+        threshold_critical = "512Mi"
+}
+
+tztime local {
+        format = "%Z%Y-%m-%d %H:%M:%S"
+}
+
+tztime utc {
+        format = "%Z%Y-%m-%d %H:%M:%S"
+        timezone = "UTC"
+}
+
+cpu_usage {
+    format = "CPU %usage"
+}
+
+volume master {
+    format = "v: %volume"
+    format_muted = "v: muted"
+    device = "pulse"
+    mixer = "master"
+}
